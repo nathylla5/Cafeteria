@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    color: rgb(112, 71, 9);
+    font-family: star-wars, fantasy;
+    font-size: 50px;
+    border-top: dashed 4px rgb(128, 87, 25);
+    border-bottom: dashed 4px rgb(128, 87, 25);
+}
+section{
+    display: flex;
+}
+table{
+    display: block;
+    margin: 50px;
+    margin-top: 0;
+    margin-left: 120px;
+}
+    th{
+        color:rgb(158, 101, 14);
+        margin: 30px;
+        font-size: 15px;
+    }
+    .pro{
+        margin-right: 80px;
+    }
+    .pre{
+        margin-left: 1px;
+    }
+    .peq{
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    td{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    td b{
+        padding: 55px;
+    }
+
+    .pont{
+        color: #fff;
+    }
+
+    .edit{
+        text-align: left;
+        margin-right: 60px;
+        font-style: italic;
+    }
+
+    .edit2{
+        text-align: left;
+        margin-right: 60px;
+        font-style: italic;
+    }
+    .margem{
+        margin-right: 90px;
+    }
+
+img{
+    display: flex;
+    width: 500; 
+    height: 500;
+    max-width: 400px;
+    margin-top: auto;
+    margin-left: 40px;
+}
+div{
+    border-top: dashed 4px rgb(128, 87, 25);
+}
+caption img{
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+}
