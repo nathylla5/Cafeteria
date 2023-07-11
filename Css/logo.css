@@ -1,6 +1,9 @@
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+
 img{
-    width: 500px;
-    height: 500px;
-    max-width: 500px;
-    margin-left: 28%;
+    max-width: 400px;
+    margin-left: 35%;
+    margin-top: 3%;
 }

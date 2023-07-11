@@ -5,24 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../Css/reset.css">
         <link rel="stylesheet" href = "../Css/Padaria.css">
+        <link rel="icon" href="../Imagens/icon.svg">
         <title>Padaria La Baguette</title>
     </head>
 
     <body>
         
         <nav class="painel"> <!--Barra de navegação-->
-            <img class="pao" src="../Imagens/logo.svg">
+            <img class="pao" src="../Imagens/logo3.svg">
         </nav>
 
         <section id="borda"> <!--Seleciona apenas o conteúdo-->
             <ul> <!--Lista não enumerada-->
-                <li><a href="./Produtos.html" target="page"><input type="image" src="../Imagens/pao (1000 px × 1000 px) (1000 px × 500 px).svg" class="botão"></a> </li> <!--Item da lista-->
-                <li><a href="./Sobre_nós.html" target="page"><input type="image" src="../Imagens/Sobre nós.svg" class="botão"></a> </li>
-                <li><a href="./Feedback.html" target="page"><input type="image" src="../Imagens/Feedback.svg" class="botão"></a> </li>
+                <li><a href="./Produtos.html" target="page"><input type="image" src="../Imagens/Cardapio.svg" class="botão" onmouseover="changeImage(this, '../Imagens/Cardapio2.svg')" onmouseout="resetImage(this, '../Imagens/Cardapio.svg')"></a> </li> <!--Item da lista-->
+                <li><a href="./Sobre_nós.html" target="page"><input type="image" src="../Imagens/Sobre_nós.svg" class="botão" onmouseover="changeImage(this, '../Imagens/Sobre_nós2.svg')" onmouseout="resetImage(this, '../Imagens/Sobre_nós.svg')"></a> </li>
+                <li><a href="./Feedback.html" target="page"><input type="image" src="../Imagens/Feedback.svg" class="botão" onmouseover="changeImage(this, '../Imagens/Feedback2.svg')" onmouseout="resetImage(this, '../Imagens/Feedback.svg')"></a> </li>
             </ul>
         </section>
         <section class="frame">
             <iframe name="page" src="../HTML/logo.html"></iframe>
         </section>
+
+        <script>
+            function changeImage(input, url) {
+              input.src = url;
+            }
+            
+            function resetImage(input, url) {
+              input.src = url;
+            }
+        </script>
     </body>
 </html>
